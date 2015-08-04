@@ -13,5 +13,14 @@
   },
   "config": {
     "vendor-dir": "vendor"
-  }
+  },
+  "extra": {
+    "installer-paths": {
+      "www/": ["type:drupal-core"],
+      "www/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
+      "www/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"],
+      "www/sites/all/libraries/{$name}/": ["type:drupal-library"],
+      "www/sites/all/drush/{$name}/": ["type:drupal-drush"],
+      "www/profiles/{$name}/": ["type:drupal-profile"]
+    }
 }
