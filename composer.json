@@ -10,5 +10,8 @@
     "drupal/ctools": "7.*",
     "drupal/devel": "7.*",
     "drupal/views": "7.*"
+  },
+  "config": {
+    "vendor-dir": "vendor"
   }
 }
