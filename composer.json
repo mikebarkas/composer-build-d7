@@ -7,7 +7,7 @@
     "composer/installers": "~1.0",
     "derhasi/composer-preserve-paths": "0.1.*",
     "drupal/drupal": "7.*",
-    "drupal/ctools": "7.*",
+    "drupal/ctools": "7.1.*",
     "drupal/devel": "7.1.*",
     "drupal/views": "7.3.*"
   },
