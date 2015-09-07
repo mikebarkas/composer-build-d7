@@ -33,8 +33,6 @@
     ]
   },
   "scripts": {
-    "post-install-cmd": [
-      "rm www/UPGRADE.txt www/CHANGELOG.txt"
-    ]
+    "post-install-cmd": "scripts/post-install.sh"
   }
 }
