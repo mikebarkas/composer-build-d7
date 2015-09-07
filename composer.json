@@ -8,8 +8,8 @@
     "derhasi/composer-preserve-paths": "0.1.*",
     "drupal/drupal": "7.*",
     "drupal/ctools": "7.*",
-    "drupal/devel": "7.*",
-    "drupal/views": "7.*"
+    "drupal/devel": "7.1.*",
+    "drupal/views": "7.3.*"
   },
   "config": {
     "vendor-dir": "vendor"
