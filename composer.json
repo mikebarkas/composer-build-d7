@@ -22,6 +22,14 @@
       "www/sites/all/libraries/{$name}/": ["type:drupal-library"],
       "www/sites/all/drush/{$name}/": ["type:drupal-drush"],
       "www/profiles/{$name}/": ["type:drupal-profile"]
-    }
+    },
+    "preserve-paths": [
+      "web/sites/all/modules/contrib",
+      "web/sites/all/themes/contrib",
+      "web/sites/all/libraries",
+      "web/sites/all/drush",
+      "web/sites/default/settings.php",
+      "web/sites/default/files"
+    ]
   }
 }
