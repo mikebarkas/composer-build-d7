@@ -31,5 +31,10 @@
       "web/sites/default/settings.php",
       "web/sites/default/files"
     ]
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "rm www/UPGRADE.txt www/CHANGELOG.txt"
+    ]
   }
 }
