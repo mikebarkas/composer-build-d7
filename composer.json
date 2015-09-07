@@ -23,4 +23,5 @@
       "www/sites/all/drush/{$name}/": ["type:drupal-drush"],
       "www/profiles/{$name}/": ["type:drupal-profile"]
     }
+  }
 }
