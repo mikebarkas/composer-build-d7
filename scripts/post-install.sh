@@ -51,6 +51,6 @@ drush si --account-mail=${ACCOUNT_MAIL} --site-mail=${SITE_MAIL} --account-pass=
 #
 # Enable/disable modules.
 #
-drush dis overlay -y
-drush en views views_ui -y
+drush dis overlay toolbar -y
+drush en views views_ui admin_menu module_filter -y
 
