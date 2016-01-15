@@ -46,7 +46,7 @@ cd www
 #
 # Drush site install.
 #
-drush si --account-mail=${ACCOUNT_MAIL} --site-mail=${SITE_MAIL} --account-pass=${ACCOUNT_PASS} --site-name=${SITE_NAME} --db-url=mysql://${DB_USER}:${DB_PASS}@${DB_URL}/${DB_NAME} -y
+drush si standard --account-mail=${ACCOUNT_MAIL} --site-mail=${SITE_MAIL} --account-pass=${ACCOUNT_PASS} --site-name="${SITE_NAME}" --db-url=mysql://${DB_USER}:${DB_PASS}@${DB_URL}/${DB_NAME} -y
 
 #
 # Enable/disable modules.
