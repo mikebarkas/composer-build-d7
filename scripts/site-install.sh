@@ -18,26 +18,6 @@ DB_NAME='composed_drupal'
 DB_URL='127.0.0.1'
 # --------------------------------------
 
-TEXT_FILES=(
-  "CHANGELOG.txt"
-  "COPYRIGHT.txt"
-  "INSTALL.txt"
-  "INSTALL.sqlite.txt"
-  "INSTALL.pgsql.txt"
-  "LICENSE.txt"
-  "MAINTAINERS.txt"
-  "README.txt"
-  "UPGRADE.txt"
-)
-
-#
-# Remove text files.
-#
-for FILE in "${TEXT_FILES[@]}"
-do
-  rm www/"${FILE}"
-done
-
 #
 # Move into website directory to use Drush.
 #
