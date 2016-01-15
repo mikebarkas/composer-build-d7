@@ -9,9 +9,9 @@
     "drupal/drupal": "7.*",
     "drupal/ctools": "7.1.*",
     "drupal/devel": "7.1.*",
-    "drupal/views": "7.3.*"
-    "drupal/module_filter": "7.2.*"
-    "drupal/admin_menu": "7.3.*"
+    "drupal/views": "7.3.*",
+    "drupal/module_filter": "7.2.*",
+    "drupal/admin_menu": "7.3.0-rc5"
   },
   "config": {
     "vendor-dir": "vendor"
