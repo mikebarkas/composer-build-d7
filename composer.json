@@ -36,6 +36,7 @@
   },
   "scripts": {
     "post-install-cmd": "scripts/post-install.sh",
+    "pre-update-cmd": "scripts/backup-database.sh",
     "install-drupal": "scripts/site-install.sh",
     "generate-content": "scripts/generate-content.sh"
   }
