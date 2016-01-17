@@ -8,10 +8,13 @@ This will provide a starting point for building, installing, and maintaining you
 
 ----
 
+The scripts included below are examples of using Composer's event scripts and your custom scripts.
+
+Edit or delete as needed for your project.
 
 ### Composer Script Commands
 
-* `post-install-cmd` : Removes unused text files in Web root after install.
+* `post-install-cmd` : Removes unused text files in site root after install.
 
 * `pre-update-cmd` : Provides a databse dump via Drush before checking for module updates. Set location in script.
 
@@ -19,4 +22,4 @@ This will provide a starting point for building, installing, and maintaining you
 
 * `install-drupal` : Installs Drupal using Drush _site-install_ via a Bash script. See settings in install script.
 
-* `generate-content` : Creates example development content using the _devel-generate_ module. Customize your content in the script.
+* `generate-content` : Creates content using the _devel-generate_ module. Customize your content in the script.
