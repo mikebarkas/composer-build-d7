@@ -18,7 +18,7 @@ Edit or delete as needed for your project.
 
 * `pre-update-cmd` : Provides a databse dump via Drush before checking for module updates. Set location in script.
 
-### Custom Script Events
+### Custom Script Commands
 
 * `install-drupal` : Installs Drupal using Drush _site-install_ via a Bash script. See settings in install script.
 
